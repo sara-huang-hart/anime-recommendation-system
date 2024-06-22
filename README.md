@@ -1,1 +1,2 @@
-# anime-recommendation-system
+# 📌 Project Background  
+Over the past few decades, Japanese animation, also known as anime, has successfully emerged as one of the most influential and rapidly growing entertainment industries in the world. This global phenomenon has captivated audiences of all ages and backgrounds from staples like <i>One Piece</i> and <i>Naruto</i> to newcomers like <i>Attack on Titan</i> and <i>Jujutsu Kaisen</i>.
