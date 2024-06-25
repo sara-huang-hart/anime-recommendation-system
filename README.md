@@ -95,14 +95,22 @@ We implemented the K-Nearest Neighbors (KNN) algorithm which is designed to pred
    - The file that contained the 44 million records of user-anime pairs was stored in a data frame called user_ratings.  
    - The list of anime titles was stored in a data frame called anime_data.
    - The file with the dummy variables for genre was stored in a data frame called knn_genres.      
-3. Then, we created a matrix of the users and animes.  
+3. Then, we created a matrix of the users and animes.   
    <br>
       <img src="Images/img-18.png" width="800">
    <br>  
 4. Using the scikit-learn library, we initialized the nearest neighbors model.   
    <br>
       <img src="Images/img-19.png" width="800">
+   <br>  
+      <img src="Images/img-22.png" width="800">
    <br>
-5. We experimented with Z-score normalization to improve our model's performance and incorporated genres as dummy variables to give us more subtle results.
-6.    
-  
+      <img src="Images/img-23.png" width="800">
+   <br>  
+6. We experimented with Z-score normalization to improve our model's performance and incorporated genres as dummy variables to give us more subtle results.
+   <br>
+      <img src="Images/img-20.png" width="800">
+   <br>     
+      <img src="Images/img-21.png" width="800">
+   <br>
+
