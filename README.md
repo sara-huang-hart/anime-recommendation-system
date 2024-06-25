@@ -88,6 +88,4 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
       <img src="Images/img-17.png" width="600">
    <br>  
   As expected, the most completed titles were some of the most popular animes in our data. Additionally, by comparing the average user score to the mean, we found consistency in the user ratings. On the other hand, the most dropped titles had extremely low ratings, even lower than the mean rating on the MAL website. This could be an indication that the users in our dataset have much stronger opinions about shows that dislike.  
-- 
-- 
   
