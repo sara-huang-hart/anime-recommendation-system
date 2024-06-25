@@ -12,6 +12,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
       <img src="Images/img-01.png" width="600">
    <br>  
 3. Using the same Python code, each team member was allocated a segment of 10,000 anime IDs.
+   Throughout the process, the API encountered 403 and 404 errors. A 403 error occurs when calls are made too frequently. To mitigate this issue, we added a 3-second delay in the code enabling us to circumvent encountering this problem. A 404 error is a "not found" error. For this issue, we added a conditional statement to skip the anime ID.  
    <br>
       <img src="Images/img-02.png" width="600">
    <br>
@@ -20,7 +21,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
    <br>
       <img src="Images/img-04.png" width="600">
-   <br>
-   Throughout the process, the API encountered 403 errors, which occur when calls are made too frequently. To mitigate this issue, we added a 3-second delay in the code enabling us to circumvent encountering this problem.  
-5. The 
+   <br>  
+  
+5. E 
 
