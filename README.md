@@ -35,4 +35,4 @@ Since our project objective is to make anime recommendations based on users' rat
    <br>
       <img src="Images/img-07.png" width="600">
    <br>  
-
+   By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required. 
