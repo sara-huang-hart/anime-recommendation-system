@@ -22,6 +22,5 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-04.png" width="600">
    <br>  
-  
 5. E 
 
