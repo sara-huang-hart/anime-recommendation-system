@@ -99,18 +99,29 @@ We implemented the K-Nearest Neighbors (KNN) algorithm which is designed to pred
    <br>
       <img src="Images/img-18.png" width="800">
    <br>  
-4. Using the scikit-learn library, we initialized the nearest neighbors model.   
+4. Using the scikit-learn library, we initialized a nearest neighbors model.   
    <br>
       <img src="Images/img-19.png" width="800">
    <br>  
       <img src="Images/img-22.png" width="800">
-   <br>
+   <br>  
       <img src="Images/img-23.png" width="800">
    <br>  
-6. We experimented with Z-score normalization to improve our model's performance and incorporated genres as dummy variables to give us more subtle results.
+6. We experimented with Z-score normalization to improve our model's performance and incorporated genres as dummy variables to give us more subtle results.  
    <br>
       <img src="Images/img-20.png" width="800">
    <br>     
       <img src="Images/img-21.png" width="800">
+   <br>  
+7. Then, we initialized the nearest neighbors model on the new matrix data frame.  
+      <img src="Images/img-24.png" width="800">
    <br>
+      <img src="Images/img-25.png" width="800">
+   <br>  
+Overall, z-score normalization seemed to improve the model's performance. However, incorporating genres as dummy variables did not have a significant effect.  
+
+# 🔑 Key Findings and Takeaways  
+- Popular titles with a substantial number of ratings seemed to exhibit more stable and consistent neighbors, suggesting that the recommendations for extremely popular shows are less sensitive to change.  
+- Titles with middle to low popularity demonstrated greater sensitivity due to the impact of normalization. After multiple trial runs, our model was able to achieve some level of accuracy from the recommendations, indicating consistency with the way users rate animes.
+  - For example, for the classic film <i>Akira</i> (1988), the model recommends titles like <i>Cowboy Bebop</i> (1998), <i>Koukaku Kidoutai</i> (1955), and <i>Perfect Blue</i> (1997).   
 
