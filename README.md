@@ -51,4 +51,13 @@ With the two lists, one of the anime titles and one of the usernames, we used th
 3. Executed a loop to iterate through each of the usernames. Then, used the API to call on the rating lists for each user. This resulted in ratings by a total of 18,145 users. Below is an example of what the anime user ratings data file looked like.
    <br>
       <img src="Images/img-11.png" width="800">
-   <br>  
+   <br>
+
+# 🧽 Data Cleaning  
+Extensive cleaning was undertaken before implementing our model to enhance the quality of our datasets.  
+- Due to the size of the dataset, we had to process the initial data in subsets.
+- We formatted the columns by removing the brackets and quotations that were included in the raw data.
+- We replaced spaces with an underscore (_) to ensure readability.  
+- We dropped duplicate rows and any missing values from our data.
+- We created dummy variables for the studios and genre variables.
+- 
