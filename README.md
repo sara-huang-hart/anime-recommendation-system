@@ -60,4 +60,4 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
 - We replaced spaces with an underscore (_) to ensure readability.  
 - We dropped duplicate rows and any missing values from our data.
 - We created dummy variables for the studios and genre variables.
-- 
+- For consistency, we made specific assumptions during the cleaning process. For example, since MAL tracks the progress of a user on a given anime, we opted to keep only the rows that were flagged as "Complete" or "Dropped". Additionally, we assumed that instances where the rating is 0 means that the anime was either not watched or the user simply forgot to rate the anime. Therefore, we 
