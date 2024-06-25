@@ -35,31 +35,28 @@ Since our project objective is to make anime recommendations based on users' rat
       <img src="Images/img-07.png" width="800">
    <br>  
    By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required.  
-2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 70,000 unique users. Below is an example of what the users' data file looked like.    
+2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 18,145 unique users. Below is an example of what the users' data file looked like.    
    <br>
       <img src="Images/img-08.png" width="800">
    <br>
    
 With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract user ratings.  
-1. Initialized a data frame to store the records, and import the CSV file of the usernames.       
+1. First, we initialized a data frame to store the records and imported the CSV file of the usernames.       
    <br>
       <img src="Images/img-09.png" width="800">
    <br>  
-      <br>
       <img src="Images/img-10.png" width="800">
    <br>  
 3. Executed a loop to iterate through each of the usernames.
    <br>
       <img src="Images/img-11.png" width="800">
    <br>  
-      <br>
       <img src="Images/img-12.png" width="800">
    <br>  
-5. Then, we used the API to call on the rating lists for each user. This resulted in ratings by a total of 18,145 users. Below is an example of what the anime user ratings data file looked like.
+5. Then, we used the API to call on the rating lists for each user. This resulted in 44 million rows of data. Below is an example of what the anime user ratings data file looked like.  
    <br>
       <img src="Images/img-13.png" width="800">
-   <br>
-
+   <br>  
 
 # 🧽 Data Cleaning  
 Extensive cleaning was undertaken before implementing our model to enhance the quality of our datasets.  
@@ -72,4 +69,8 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
 - The site tracks every instance of ratings that users place on anime titles, in other words, if a user rated a show multiple times, each instance would appear in the dataset. To address this discrepancy, we kept only the latest rating for each user-anime pair using the "updated_at" column which provides a timestamp of when each rating was made.
 
 # 📊 Exploratory Data Analysis  
-
+- The top 10 animes based on average user ratings (minimum of 1,000 ratings), we found that the year when the anime is released does not affect its popularity. As the table below shows, classic shows like <i>Gintama</i> (2015) and <i>One Piece</i> (1999) and newcomers such as <i>Shingeki no Kyojin</i> (2019) and <i>Sousou no Frieren</i> (2023) are equally highly rated.
+   <br>
+      <img src="Images/img-14.png" width="800">
+   <br>
+  However, a common characteristic between these highly rated shows is that they are ranked amongst the top 50 shows on MAL's website. In fact, by comparing the top 10 shows in our data to the mean aggregate scores on the website, we found that each score is relatively similar. This suggests that despite our data being limited, our dataset still manages to capture the essence of user preferences.      
