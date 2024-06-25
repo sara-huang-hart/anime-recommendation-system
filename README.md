@@ -91,13 +91,18 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
 
 # 💻 Recommendation System Model  
 We implemented the K-Nearest Neighbors (KNN) algorithm which is designed to predict instances based on the majority class or the average of its <i>k</i> nearest neighbors. For this project, KNN was used as a tool for personalized recommendations by leveraging the historical ratings of users on the MAL website. By targeting a specific anime, KNN identifies other titles with similar user ratings and recommends animes that are frequently rated highly by the nearest neighbors or the target anime. To create this model,   
-1. First, we imported the file that contained the 44 million records of user-anime pairs and stored it in a data frame called user_ratings. We also imported the list of anime titles and stored it in a data frame called anime_data.  
-2. Then, we created a matrix of the users and animes.
+1. First, we imported the cleaned data files and stored them in separate data frames.  
+   - The file that contained the 44 million records of user-anime pairs was stored in a data frame called user_ratings.  
+   - The list of anime titles was stored in a data frame called anime_data.
+   - The file with the dummy variables for genre was stored in a data frame called knn_genres.      
+3. Then, we created a matrix of the users and animes.  
    <br>
       <img src="Images/img-18.png" width="800">
-   <br>
-3. Using the scikit-learn library, we initialized the NearestNeighbors model.   
+   <br>  
+4. Using the scikit-learn library, we initialized the nearest neighbors model.   
    <br>
       <img src="Images/img-19.png" width="800">
    <br>
+5. We experimented with Z-score normalization to improve our model's performance and incorporated genres as dummy variables to give us more subtle results.
+6.    
   
