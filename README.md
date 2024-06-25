@@ -5,6 +5,8 @@ This project focused on analyzing data on anime and viewer preferences to create
 
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
+To enlarge the images, please click on them.  
+
 # ⚡Data Retrieval  
 Our strategy was to first extract the data of users and animes from MyAnimeList and store the data in a data frame that contained a list of the animes and the average user ratings.  
 1. Each team member created an account on MAL and obtained a unique client ID to use the OAuth 2.0 protocol to authenticate tokens and access the data.    
