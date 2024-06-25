@@ -39,6 +39,7 @@ Since our project objective is to make anime recommendations based on users' rat
    <br>
       <img src="Images/img-08.png" width="800">
    <br>
+   
 With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract user ratings.  
 1. Initialized a data frame to store the records, and import the CSV file of the usernames.       
    <br>
