@@ -22,7 +22,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-04.png" width="800">
    <br>  
-5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the anime data file looked like.    
+5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained 16,135 unique anime titles and their user rating. Below is an example of what the anime data file looked like.    
    <br>
       <img src="Images/img-05.png" width="800">
    <br>
@@ -48,10 +48,18 @@ With the two lists, one of the anime titles and one of the usernames, we used th
       <br>
       <img src="Images/img-10.png" width="800">
    <br>  
-3. Executed a loop to iterate through each of the usernames. Then, used the API to call on the rating lists for each user. This resulted in ratings by a total of 18,145 users. Below is an example of what the anime user ratings data file looked like.
+3. Executed a loop to iterate through each of the usernames.
    <br>
       <img src="Images/img-11.png" width="800">
+   <br>  
+      <br>
+      <img src="Images/img-12.png" width="800">
+   <br>  
+5. Then, we used the API to call on the rating lists for each user. This resulted in ratings by a total of 18,145 users. Below is an example of what the anime user ratings data file looked like.
    <br>
+      <img src="Images/img-13.png" width="800">
+   <br>
+
 
 # 🧽 Data Cleaning  
 Extensive cleaning was undertaken before implementing our model to enhance the quality of our datasets.  
