@@ -71,7 +71,7 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
 # 📊 Exploratory Data Analysis  
 - The top 10 animes based on average user ratings (minimum of 1,000 ratings), we found that the year when the anime is released does not affect its popularity. As the table below shows, classic shows like <i>Gintama</i> (2015) and <i>One Piece</i> (1999) and newcomers such as <i>Shingeki no Kyojin</i> (2019) and <i>Sousou no Frieren</i> (2023) are equally highly rated.  
    <br>
-      <img src="Images/img-14.png" width="300">
+      <img src="Images/img-14.png" width="400">
    <br>  
   However, a common characteristic between these highly rated shows is that they are ranked amongst the top 50 shows on MAL's website. In fact, by comparing the top 10 shows in our data to the mean aggregate scores on the website, we found that each score is relatively similar. This suggests that despite our data being limited, our dataset still manages to capture the essence of user preferences.  
 - The most popular genres seemed to be comedy, kids, fantasy, action, and adventure. This makes sense since a large demographic of anime viewers are teens.  
@@ -85,7 +85,7 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
   The latest released show on this list is <i>Chainsaw Man</i> (2022). Although this anime is popular, it should also be noted that the method by which we collected this data (based on recent users) may influence how recently released shows are perceived.
 - As we discussed in the Data Cleaning section, we opted to keep only shows that were flagged as "Completed" and "Dropped" as an indication that the user had some conscious familiarity with the show on his/her list. Therefore, we looked at the most completed and most dropped animes.
    <br>
-      <img src="Images/img-17.png" width="500">
+      <img src="Images/img-17.png" width="600">
    <br>
   As expected, the most completed titles were some of the most popular animes in our data. Additionally, by comparing the average user score to the mean, we found consistency in the user ratings. On the other hand, the most dropped titles had extremely low ratings, even lower than the mean rating on the MAL website. This could be an indication that the users in our dataset have much stronger opinions about shows that dislike.  
 - 
