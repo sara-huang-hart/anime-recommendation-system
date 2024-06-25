@@ -17,10 +17,8 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    Throughout the process, the API encountered 403 and 404 errors. A 403 error occurs when calls are made too frequently. To mitigate this issue, we added a 3-second delay in the code enabling us to circumvent encountering this problem. A 404 error is a "not found" error. For this issue, we added a conditional statement to skip the anime ID.  
    <br>
       <img src="Images/img-02.png" width="800">
-   <br>
-   <br>
+   <br>  
       <img src="Images/img-03.png" width="800">
-   <br>
    <br>
       <img src="Images/img-04.png" width="800">
    <br>  
@@ -33,8 +31,7 @@ Since our project objective is to make anime recommendations based on users' rat
 1. Each team member ran the code below, which used the provided URL to repeatedly generate a random list of 20 recent users upon each page refresh until a list of 50,000 unique usernames is retrieved.  
    <br>
       <img src="Images/img-06.png" width="800">
-   <br>
-   <br>
+   <br>  
       <img src="Images/img-07.png" width="800">
    <br>  
    By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required.  
@@ -46,8 +43,7 @@ With the two lists, one of the anime titles and one of the usernames, we used th
 1. Initialized a data frame to store the records, and import the CSV file of the usernames.       
    <br>
       <img src="Images/img-09.png" width="800">
-   <br>
-   <br>
+   <br>  
       <br>
       <img src="Images/img-10.png" width="800">
    <br>  
