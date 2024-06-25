@@ -74,12 +74,12 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
       <img src="Images/img-14.png" width="600">
    <br>  
   However, a common characteristic between these highly rated shows is that they are ranked amongst the top 50 shows on MAL's website. In fact, by comparing the top 10 shows in our data to the mean aggregate scores on the website, we found that each score is relatively similar. This suggests that despite our data being limited, our dataset still manages to capture the essence of user preferences.  
-- The most popular genres seemed to be comedy, kids, fantasy, action, and adventure. This makes sense since a large demographic of anime viewers are teens.
+- The most popular genres seemed to be comedy, kids, fantasy, action, and adventure. This makes sense since a large demographic of anime viewers are teens.  
    <br>
       <img src="Images/img-15.png" width="600">
-   <br>
+   <br>  
   These tiles include popular titles, such as <i>Kimetsu no Yaiba</i> (2019), <i>Jujutsu Kaisen</i> (2020), and <i>Death Note</i> (2006).  
    <br>
       <img src="Images/img-16.png" width="600">
-   <br>
+   <br>  
   The latest released show on this list is <i>Chainsaw Man</i> (2022). Although this anime is popular, it should also be noted that the method by which we collected this data (based on recent users) may influence how recently released shows are perceived.   
