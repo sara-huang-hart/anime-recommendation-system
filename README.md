@@ -61,4 +61,7 @@ Extensive cleaning was undertaken before implementing our model to enhance the q
 - We dropped duplicate rows and any missing values from our data.
 - We created dummy variables for the studios and genre variables.
 - For consistency, we made specific assumptions during the cleaning process. For example, since MAL tracks the progress of a user on a given anime, we opted to keep only the rows that were flagged as "Complete" or "Dropped". Additionally, we assumed that instances where the rating is 0 means that the anime was either not watched or the user simply forgot to rate the anime. Therefore, we removed any records with a rating of 0.
-- The site tracks every instance of ratings that users place on anime titles, in other words, if a user rated a show multiple times, each instance would appear in the dataset. To address this discrepancy, we kept only the latest rating for each user-anime pair using the "updated_at" column which provides a timestamp of when each rating was made.  
+- The site tracks every instance of ratings that users place on anime titles, in other words, if a user rated a show multiple times, each instance would appear in the dataset. To address this discrepancy, we kept only the latest rating for each user-anime pair using the "updated_at" column which provides a timestamp of when each rating was made.
+
+# 📊 Exploratory Data Analysis  
+
