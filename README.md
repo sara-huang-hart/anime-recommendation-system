@@ -27,6 +27,6 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
       <img src="Images/img-05.png" width="600">
    <br>
    
-Since our project objective is to make anime recommendations based on users' ratings, our next task was to generate a user list. The MAL website contains 14 million users. However, using this list would result in excessive time consumption and storage requirements. Therefore, we made the strategic decision to employ a subset of these users, specifically the most recently active users.
-1.     
+Since our project objective is to make anime recommendations based on users' ratings, our next task was to generate a user list. The MAL website contains 14 million users. However, using this list would result in excessive time consumption and storage requirements. Therefore, we made the strategic decision to employ a subset of these users, specifically the most recently active users. We utilized the "BeautifulSoup" library to navigate and extract information from the website.  
+1. Each team member ran the code below, which used the provided URL to generate a random list of 20 recent users upon each page refresh.
 
