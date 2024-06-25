@@ -124,5 +124,6 @@ Overall, z-score normalization seemed to improve the model's performance. Howeve
 # 🔑 Key Findings and Takeaways  
 - Popular titles with a substantial number of ratings seemed to exhibit more stable and consistent neighbors, suggesting that the recommendations for extremely popular shows are less sensitive to change.  
 - Titles with middle to low popularity demonstrated greater sensitivity due to the impact of normalization. After multiple trial runs, our model was able to achieve some level of accuracy from the recommendations, indicating consistency with the way users rate animes.
-  - For example, for the classic film <i>Akira</i> (1988), the model recommends titles like <i>Cowboy Bebop</i> (1998), <i>Koukaku Kidoutai</i> (1955), and <i>Perfect Blue</i> (1997).   
+  - For example, for the classic film <i>Akira</i> (1988), the model recommends titles like <i>Cowboy Bebop</i> (1998), <i>Koukaku Kidoutai</i> (1955), and <i>Perfect Blue</i> (1997). These titles are all critically acclaimed animes that fall under genres related to <i>Akira</i> (1988), such as cyber-punk, sci-fi, and psychological.
+- Though the accuracy of these recommendations is subjective, it should be noted that the titles being recommended are not necessarily similar in their content but similar in how this model has perceived how users enjoy them. Any resemblance in the content being recommended simply implies that users who enjoy the targeted anime tend to also enjoy other titles that are similar in content.      
 
