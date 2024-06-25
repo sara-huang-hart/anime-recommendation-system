@@ -22,5 +22,9 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-04.png" width="600">
    <br>  
-5. E 
+5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the data file looked like:
+   <br>
+      <img src="Images/img-05.png" width="600">
+   <br> 
+7.  
 
