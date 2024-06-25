@@ -25,7 +25,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
 5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained 16,135 unique anime titles and their user rating. Below is an example of what the anime data file looked like.    
    <br>
       <img src="Images/img-05.png" width="800">
-   <br>
+   <br>  
    
 Since our project objective is to make anime recommendations based on users' ratings, our next task was to generate a user list. The MAL website contains 14 million users. However, using this list would result in excessive time consumption and storage requirements. Therefore, we made the strategic decision to employ a subset of these users, specifically the most recently active users. We utilized the BeautifulSoup library to navigate and extract information from the website.  
 1. Each team member ran the code below, which used the provided URL to repeatedly generate a random list of 20 recent users upon each page refresh until a list of 50,000 unique usernames is retrieved.  
