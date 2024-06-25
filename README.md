@@ -8,5 +8,18 @@ This project focused on analyzing data on anime and viewer preferences to create
 # ⚡Data Retrieval  
 Our strategy was to first extract the data of users and animes from MyAnimeList and store the data in a data frame that contained a list of the animes and the user ratings.  
 1. Each team member created an account on MAL and obtained a unique client ID to use the OAuth 2.0 protocol to authenticate tokens and access the data.
-2.    
+   <br>
+      <img src="Images/img-01.png" width="600">
+   <br>  
+3. Using the same Python code, each team member was allocated a segment of 10,000 anime IDs. Together, this approximated to around 50,000 anime titles.  
+   <br>
+      <img src="Images/img-02.png" width="600">
+   <br>
+   <br>
+      <img src="Images/img-03.png" width="600">
+   <br>
+   <br>
+      <img src="Images/img-04.png" width="600">
+   <br>  
+     
 
