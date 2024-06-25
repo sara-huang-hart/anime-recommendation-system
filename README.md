@@ -47,13 +47,13 @@ With the two lists, one of the anime titles and one of the usernames, we used th
    <br>  
       <img src="Images/img-10.png" width="800">
    <br>  
-3. Executed a loop to iterate through each of the usernames.
+3. Then, we executed a loop to iterate through each of the usernames.
    <br>
       <img src="Images/img-11.png" width="800">
    <br>  
       <img src="Images/img-12.png" width="800">
    <br>  
-5. Then, we used the API to call on the rating lists for each user. This resulted in 44 million rows of data. Below is an example of what the anime user ratings data file looked like.  
+5. Lastly, we used the API to call on the rating lists for each user. This resulted in 44 million rows of data. Below is an example of what the anime user ratings data file looked like.  
    <br>
       <img src="Images/img-13.png" width="800">
    <br>  
