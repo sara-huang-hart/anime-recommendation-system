@@ -6,7 +6,7 @@ This project focused on analyzing data on anime and viewer preferences to create
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
 # ⚡Data Retrieval  
-Our strategy was to first extract the data of users and animes from MyAnimeList and store the data in a data frame that contained a list of the animes and the user ratings.  
+Our strategy was to first extract the data of users and animes from MyAnimeList and store the data in a data frame that contained a list of the animes and the average user ratings.  
 1. Each team member created an account on MAL and obtained a unique client ID to use the OAuth 2.0 protocol to authenticate tokens and access the data.  
    <br>
       <img src="Images/img-01.png" width="600">
@@ -22,17 +22,22 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-04.png" width="600">
    <br>  
-5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the data file looked like:  
+5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the data file looked like.    
    <br>
       <img src="Images/img-05.png" width="600">
    <br>
    
 Since our project objective is to make anime recommendations based on users' ratings, our next task was to generate a user list. The MAL website contains 14 million users. However, using this list would result in excessive time consumption and storage requirements. Therefore, we made the strategic decision to employ a subset of these users, specifically the most recently active users. We utilized the BeautifulSoup library to navigate and extract information from the website.  
-1. Each team member ran the code below, which used the provided URL to repeatedly generate a random list of 20 recent users upon each page refresh until a list of 50,000 usernames is retrieved.  
+1. Each team member ran the code below, which used the provided URL to repeatedly generate a random list of 20 recent users upon each page refresh until a list of 50,000 unique usernames is retrieved.  
    <br>
       <img src="Images/img-06.png" width="600">
    <br>
    <br>
       <img src="Images/img-07.png" width="600">
    <br>  
-   By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required. 
+   By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required.  
+2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 70,000 unique users. Below is an example of what the data file looked like.    
+   <br>
+      <img src="Images/img-07.png" width="600">
+   <br>
+With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract indi 
