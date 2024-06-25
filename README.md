@@ -113,7 +113,7 @@ We implemented the K-Nearest Neighbors (KNN) algorithm which is designed to pred
    <br>     
       <img src="Images/img-21.png" width="800">
    <br>  
-7. Then, we initialized the nearest neighbors model on the new matrix data frame.  
+7. Lastly, we initialized the nearest neighbors model on the new matrix data frame.  
    <br>
       <img src="Images/img-24.png" width="800">
    <br>  
