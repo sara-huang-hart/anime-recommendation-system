@@ -11,7 +11,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-01.png" width="600">
    <br>  
-3. Using the same Python code, each team member was allocated a segment of 10,000 anime IDs. Together, this approximated to around 50,000 anime titles.  
+3. Using the same Python code, each team member was allocated a segment of 10,000 anime IDs.
    <br>
       <img src="Images/img-02.png" width="600">
    <br>
@@ -20,6 +20,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
    <br>
       <img src="Images/img-04.png" width="600">
-   <br>  
-     
+   <br>
+   Throughout the process, the API encountered 403 errors, which occur when calls are made too frequently. To mitigate this issue, we added a 3-second delay in the code enabling us to circumvent encountering this problem.  
+5. The 
 
