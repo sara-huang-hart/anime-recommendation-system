@@ -25,6 +25,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
 5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the data file looked like:  
    <br>
       <img src="Images/img-05.png" width="600">
-   <br>  
-7.  
+   <br>
+Since our project objective is to make anime recommendations based on users' ratings, our next task was to generate a user list. The MAL website contains 14 million users. However, using this list would result in excessive time consumption and storage requirements. Therefore, we made the strategic decision to employ a subset of these users, specifically the most recently active users.
+1.     
 
