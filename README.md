@@ -22,7 +22,7 @@ Our strategy was to first extract the data of users and animes from MyAnimeList 
    <br>
       <img src="Images/img-04.png" width="600">
    <br>  
-5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the data file looked like.    
+5. Each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file that contained approximately 50,000 anime titles and their user rating. Below is an example of what the anime data file looked like.    
    <br>
       <img src="Images/img-05.png" width="600">
    <br>
@@ -36,16 +36,20 @@ Since our project objective is to make anime recommendations based on users' rat
       <img src="Images/img-07.png" width="600">
    <br>  
    By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required.  
-2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 70,000 unique users. Below is an example of what the data file looked like.    
+2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 70,000 unique users. Below is an example of what the users' data file looked like.    
    <br>
       <img src="Images/img-08.png" width="600">
    <br>
-With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract user ratings.
-1. Initialized a data frame to store the records, and import the CSV file of the usernames.     
+With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract user ratings.  
+1. Initialized a data frame to store the records, and import the CSV file of the usernames.       
    <br>
       <img src="Images/img-09.png" width="600">
+   <br>
    <br>
       <br>
       <img src="Images/img-10.png" width="600">
    <br>  
-3. Executed a loop to iterate through each of the   
+3. Executed a loop to iterate through each of the usernames. Then, used the API to call on the rating lists for each user. This resulted in ratings by a total of 18,145 users. Below is an example of what the anime user ratings data file looked like.
+   <br>
+      <img src="Images/img-11.png" width="600">
+   <br>  
