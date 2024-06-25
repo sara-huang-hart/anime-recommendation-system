@@ -7,7 +7,7 @@ This project focused on analyzing data on anime and viewer preferences to create
 
 # ⚡Data Retrieval  
 Our strategy was to first extract the data of users and animes from MyAnimeList and store the data in a data frame that contained a list of the animes and the average user ratings.  
-1. Each team member created an account on MAL and obtained a unique client ID to use the OAuth 2.0 protocol to authenticate tokens and access the data.  
+1. Each team member created an account on MAL and obtained a unique client ID to use the OAuth 2.0 protocol to authenticate tokens and access the data.    
    <br>
       <img src="Images/img-01.png" width="600">
    <br>  
@@ -38,6 +38,14 @@ Since our project objective is to make anime recommendations based on users' rat
    By using the BeautifulSoup library, we were able to parse through the HTML content, targeting the sections where usernames were listed within the HTML structure. This process allowed us to collect as many usernames as required.  
 2. Similar to the list of animes, each member exported his/her data to a CSV file and placed it into a shared file. All the individual files were consolidated to create a master file. Duplicate usernames were removed which resulted in approximately 70,000 unique users. Below is an example of what the data file looked like.    
    <br>
-      <img src="Images/img-07.png" width="600">
+      <img src="Images/img-08.png" width="600">
    <br>
-With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract indi 
+With the two lists, one of the anime titles and one of the usernames, we used this data in conjunction with the MAL API to extract user ratings.
+1. Initialized a data frame to store the records, and import the CSV file of the usernames.     
+   <br>
+      <img src="Images/img-09.png" width="600">
+   <br>
+      <br>
+      <img src="Images/img-10.png" width="600">
+   <br>  
+3. Executed a loop to iterate through each of the   
